@@ -5,4 +5,9 @@
 
 NSArray *LevelOrderTraversalForTree(NSArray *tree);
 
+typedef enum {
+    left,
+    right
+} Node;
+
 #endif /* LevelOrderTraversal_h */
